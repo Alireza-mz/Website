@@ -97,12 +97,15 @@ main {
     border-radius: 10px;
     box-shadow: 0px 0px 5px rgb(220, 240, 184);
 }
+.img-main:hover {
+box-shadow: 0px 1px 5px rgb(47, 65, 114);
+}
 .img-social {
     width: 50px;
     height: 50px;
 }
 .img-social:hover{
-    box-shadow: 0px 1px 5px black;
+    box-shadow: 0px 1px 5px rgb(47, 65, 114);
 }
 .img-media > ul{
     list-style: none;
