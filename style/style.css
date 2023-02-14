@@ -13,6 +13,7 @@
 }
 
 * {
+    box-sizing: border-box;
     margin: 0px;
     padding: 0px;
     font-family: "Yekan" !important;
@@ -70,4 +71,29 @@ aside, main {
 }
 main {
     margin-left: 15px;
+}
+._camera {
+    font-size: 20px;
+}
+.p_camera{
+    width: 300px;
+    font-size: 14px;
+}
+.img_camera{
+    position: relative;
+    top: 10px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 6px 0px black ;
+}
+.container > ul {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    align-content: space-evenly;
+    list-style-type: none;
+    margin: 0px 50px;
+}
+.img-main {
+    border-radius: 10px;
+    box-shadow: 0px 0px 5px rgb(220, 240, 184);
 }
